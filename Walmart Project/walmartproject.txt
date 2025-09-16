@@ -1,0 +1,56 @@
+Descripción General del Dataset
+
+Este archivo contiene datos históricos de ventas semanales de diferentes tiendas de Walmart en Estados Unidos. El objetivo del análisis es identificar patrones de ventas, comparar el desempeño de tiendas, evaluar el impacto de variables externas como feriados o precios de combustible, y extraer insights relevantes para la toma de decisiones comerciales.
+
+Los datos provienen de un dataset público disponible en Kaggle y fueron utilizados como base para el desarrollo de un proyecto de análisis con Excel, SQL y Tableau.
+
+Descripción de las Columnas:
+
+-Store: Identificador numérico único de cada tienda de Walmart.
+
+-Date: Fecha correspondiente al inicio de la semana. Formato original: dd/mm/yyyy.
+
+-Weekly_Sales: Total de ventas semanales de esa tienda. Expresado en dólares estadounidenses (USD).
+
+-Holiday_Flag: Indicador binario que marca si la semana contiene un feriado importante. 1 = semana con feriado, 0 = semana sin feriado.
+
+-Temperature: Temperatura promedio durante la semana, medida en grados Fahrenheit.
+
+-Fuel_Price: Precio promedio del combustible durante la semana, en dólares por galón.
+
+-CPI: Índice de Precios al Consumidor, refleja la variación en el costo de vida (inflación).
+
+-Unemployment: Porcentaje de desempleo correspondiente al período de la semana.
+
+Limpieza y Preparación de Datos:
+
+-Se corrigió el formato de fechas para facilitar su uso en SQL y Tableau (YYYY-MM-DD).
+
+-Se ajustaron los valores en la columna Fuel_Price para asegurar la correcta interpretación de decimales (coma vs punto).
+
+-Se eliminaron valores nulos y errores de interpretación por formato.
+
+-Se validó que Weekly_Sales no contenga valores negativos.
+
+Objetivos del Análisis
+
+-Identificar tiendas con mayores ventas promedio.
+
+-Analizar el impacto de los feriados en las ventas.
+
+-Explorar la relación entre el precio del combustible y el comportamiento de las ventas.
+
+-Detectar tendencias por mes y año.
+
+-Visualizar insights clave en un dashboard (ver en Tableau Public).
+
+Herramientas Utilizadas
+
+-Excel: Limpieza, métricas, visualizaciones y documentación.
+
+-MySQL: Consultas para exploración avanzada y agrupaciones.
+
+-Tableau: Dashboard interactivo con visualizaciones clave.
+
+
+
