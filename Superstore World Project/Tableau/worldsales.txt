@@ -1,0 +1,40 @@
+Objetivo del análisis
+
+El objetivo de este proyecto es analizar las ventas globales de una tienda ficticia llamada Global Superstore, con el fin de identificar patrones de comportamiento comercial a nivel mundial. A través del uso de Tableau, se construyó un dashboard interactivo que permite visualizar los indicadores clave del negocio: ventas, ganancias, cantidad de clientes, comportamiento mensual, distribución por productos y desempeño geográfico. El propósito final es facilitar la toma de decisiones estratégicas y detectar oportunidades de mejora en distintas áreas del negocio.
+
+🌍 Fuente de datos (origen y descripción)
+
+Los datos utilizados en este análisis provienen del portal Kaggle, específicamente del siguiente enlace:
+🔗 https://www.kaggle.com/datasets/anandaramg/global-superstore
+El dataset pertenece a la tienda ficticia Global Superstore y contiene información detallada sobre miles de transacciones comerciales realizadas en distintos países. Cada registro representa una orden de compra e incluye datos como fecha, país, ciudad, cliente, categoría de producto, cantidad, ventas, descuentos, ganancias y método de envío. Este conjunto de datos es ideal para practicar análisis de negocios, segmentación de clientes, análisis de rentabilidad y performance por producto o región.
+
+👥 Usuarios a los que va dirigido el dashboard
+
+Este dashboard está pensado para ser utilizado por analistas de negocio, gerentes de ventas, responsables de producto y equipos ejecutivos, interesados en comprender la evolución de las ventas globales. También es útil para equipos de logística o marketing que deseen explorar el rendimiento por región, producto o segmento de cliente.
+
+🔗 Relaciones en el modelo relacional (fuente de datos)
+
+En el modelo de datos implementado en Tableau se establecieron las siguientes relaciones y visualizaciones clave:
+Indicadores generales (KPIs): Muestran un paneo rápido con la suma total de ventas, el total de ganancias y la cantidad de clientes únicos.
+Mapa geográfico: Relaciona el campo Country con las ventas, para representar visualmente el desempeño de cada país.
+Ventas por mes: Se estableció una relación temporal con el campo Order Date para analizar la evolución mensual de las ventas.
+Ventas por producto: Se usaron las categorías y subcategorías de producto para segmentar el volumen de ventas por tipo de artículo.
+Gráfico circular: Muestra la distribución proporcional de ventas por categoría, con detalle de subcategorías incluidas dentro de cada una.
+
+🧮 Campos calculados creados
+
+Se generaron dos campos calculados clave:
+Promedio de ventas mensuales: Este campo permite comparar el rendimiento de cada mes respecto del promedio general, ayudando a identificar meses que superan o no las expectativas.
+Distribución por subcategoría: Para el gráfico circular se creó un campo que identifica, dentro de cada categoría principal, las subcategorías correspondientes, permitiendo un análisis más detallado del mix de productos.
+
+⚙️ Parámetros y conjuntos creados
+
+No se crearon parámetros ni conjuntos ya que, para este caso particular, no fueron necesarios para el análisis planteado. La estructura del dataset permitía realizar filtros y segmentaciones directamente desde los campos existentes.
+
+✅ Conclusiones posibles a partir del reporte
+
+A partir del análisis realizado en el dashboard, es posible identificar múltiples insights:
+Países clave en volumen de ventas y rentabilidad: permite priorizar mercados más rentables o en crecimiento.
+Productos con mayor participación: se destacan las subcategorías más vendidas, lo que ayuda a tomar decisiones sobre inventario y promociones.
+Desempeño mensual: se pueden detectar tendencias estacionales o caídas puntuales en ventas que merezcan análisis adicional.
+Clientes por segmento: permite observar qué tipo de cliente (consumidor, corporativo, home office) genera mayor ingreso o requiere atención diferenciada.
