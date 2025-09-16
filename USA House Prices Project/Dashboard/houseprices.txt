@@ -1,0 +1,39 @@
+El dataset USA House Prices disponible en Kaggle proporciona información detallada sobre viviendas en Estados Unidos  enfocándose en diversas características que pueden influir en el precio de venta de una propiedad. Este conjunto de datos es ampliamente utilizado para desarrollar modelos de predicción de precios de casas y para practicar técnicas avanzadas de regresión.
+
+Link del dataset en Kaggle: https://www.kaggle.com/datasets/fratzcan/usa-house-prices
+
+Date: La fecha en que se vendió la propiedad. Esta característica ayuda a comprender las tendencias temporales en los precios de las propiedades.
+
+Price: El precio de venta de la propiedad en USD. Esta es la variable objetivo que buscamos predecir.
+
+Bedrooms: El número de habitaciones en la propiedad. Generalmente, las propiedades con más habitaciones tienden a tener precios más altos.
+
+Bathrooms: El número de baños en la propiedad. Similar a las habitaciones, más baños pueden aumentar el valor de una propiedad.
+
+Sqft Living: El tamaño del área habitable en pies cuadrados. Áreas habitables más grandes suelen asociarse con valores de propiedad más altos.
+
+Sqft Lot: El tamaño del terreno en pies cuadrados. Lotes más grandes pueden aumentar la deseabilidad y el valor de una propiedad.
+
+Floors: El número de pisos en la propiedad. Las propiedades con múltiples pisos pueden ofrecer más espacio habitable y atractivo.
+
+Waterfront: Un indicador binario (1 si la propiedad tiene vista al agua, 0 en caso contrario). Las propiedades con vista al agua suelen tener un mayor valor.
+
+View: Un índice de 0 a 4 que indica la calidad de la vista de la propiedad. Mejores vistas probablemente aumenten el valor de la propiedad.
+
+Condition: Un índice de 1 a 5 que califica la condición de la propiedad. Las propiedades en mejor estado suelen valer más.
+
+Sqft Above: La superficie en pies cuadrados de la propiedad sobre el sótano. Esto puede ayudar a aislar la contribución de valor del espacio sobre el nivel del suelo.
+
+Sqft Basement: La superficie en pies cuadrados del sótano. Los sótanos pueden agregar valor dependiendo de su utilidad.
+
+Yr Built: El año en que se construyó la propiedad. Las propiedades más antiguas pueden tener valor histórico, mientras que las más nuevas pueden ofrecer comodidades modernas.
+
+Yr Renovated: El año en que la propiedad fue renovada por última vez. Las renovaciones recientes pueden aumentar el atractivo y el valor de la propiedad.
+
+Street: La dirección de la propiedad. Esta característica se puede utilizar para analizar tendencias de precios específicas por ubicación.
+
+City: La ciudad donde se encuentra la propiedad. Diferentes ciudades tienen dinámicas de mercado distintas.
+
+Statezip: El estado y el código postal de la propiedad. Esta característica proporciona un contexto regional para la propiedad.
+
+Country: El país donde se encuentra la propiedad. Aunque este conjunto de datos se enfoca en propiedades en Estados Unidos, esta característica se incluye por completitud.
