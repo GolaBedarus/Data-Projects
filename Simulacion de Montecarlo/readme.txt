@@ -1,0 +1,1 @@
+Este documento contiene una simulación de Montecastro genérica para una variable con distribución Pareto_II. La variable y la matriz a utilizar fueron programadas en vez de usar librerías y/o datasets. El objetivo de este archivo es el de exponer la utilización de simulaciones en R
