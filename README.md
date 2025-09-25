@@ -2,7 +2,7 @@
 
 Bienvenido/a a mi portfolio personal, aquí iré subiendo los proyectos que desarrolle.
 
-El objetivo de este Portfolio es el de exponer distintas técnicas de limpieza y visualización de los datos, utilizando herramientas como Excel, Python, SQL, Tableau y PowerBI. 
+El objetivo de este Portfolio es el de exponer distintas técnicas de limpieza y visualización de los datos, utilizando herramientas como Excel, Python, SQL, R, Tableau y PowerBI. 
 
 El link a mi perfil de Tableau Public es el siguiente:
 
