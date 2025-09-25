@@ -1,0 +1,1 @@
+Este documento contiene simulaciones de Montecarlo aplicadas al dataset seleccionado (Insurance Claims, Kaggle). Las variables sobre las cuales hice las simulaciones son Pareto y LogNormal. La variable exponencial suele no ajustarse ya que los datos poseen colas pesadas, entonces la suprimí para el análisis en este caso. 
