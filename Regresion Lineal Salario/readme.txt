@@ -1,0 +1,1 @@
+Contiene una regresión lineal simple apliacada al dataset, el cual fue sacado de Kaggle. El dataset en cuestión contiene dos columnas, la de salario y la de años de experiencia. En el análisis simplificado lo que queremos probar es que existe una correlación entre el salario y los años de experiencia.
