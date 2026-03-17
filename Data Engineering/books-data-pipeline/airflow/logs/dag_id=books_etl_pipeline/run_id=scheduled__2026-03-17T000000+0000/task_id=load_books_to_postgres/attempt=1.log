@@ -1,0 +1,12 @@
+{"timestamp":"2026-03-17T22:46:41.029545Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-17T22:46:41.033944Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/books_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-17T22:46:42.163207Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/books_etl_dag.py","lineno":5,"logger":"py.warnings"}
+{"timestamp":"2026-03-17T22:46:42.163412Z","level":"warning","event":"urllib3 (2.6.3) or chardet (6.0.0.post1)/charset_normalizer (3.4.5) doesn't match a supported version!","category":"RequestsDependencyWarning","filename":"/home/airflow/.local/lib/python3.12/site-packages/requests/__init__.py","lineno":113,"logger":"py.warnings"}
+{"timestamp":"2026-03-17T22:46:42.167295Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 118. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-17T22:46:42.214662Z","level":"error","event":"2026-03-17 22:46:42,213 | INFO | load | Reading processed data from data/processed/books_clean.csv","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:42.214626Z","level":"info","event":"Reading processed data from data/processed/books_clean.csv","logger":"load","filename":"load_to_db.py","lineno":46}
+{"timestamp":"2026-03-17T22:46:42.253846Z","level":"error","event":"2026-03-17 22:46:42,252 | INFO | load | Database connection successful.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:42.253757Z","level":"info","event":"Database connection successful.","logger":"load","filename":"load_to_db.py","lineno":32}
+{"timestamp":"2026-03-17T22:46:42.374978Z","level":"error","event":"2026-03-17 22:46:42,374 | INFO | load | Loaded 1000 records into PostgreSQL.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:42.374985Z","level":"info","event":"Loaded 1000 records into PostgreSQL.","logger":"load","filename":"load_to_db.py","lineno":58}
+{"timestamp":"2026-03-17T22:46:42.376094Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}

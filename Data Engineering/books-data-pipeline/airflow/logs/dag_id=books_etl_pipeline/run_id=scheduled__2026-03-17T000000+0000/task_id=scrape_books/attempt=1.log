@@ -1,0 +1,214 @@
+{"timestamp":"2026-03-17T22:45:51.912173Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-17T22:45:51.915743Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/books_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-17T22:45:54.921362Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/books_etl_dag.py","lineno":5,"logger":"py.warnings"}
+{"timestamp":"2026-03-17T22:45:54.921483Z","level":"warning","event":"urllib3 (2.6.3) or chardet (6.0.0.post1)/charset_normalizer (3.4.5) doesn't match a supported version!","category":"RequestsDependencyWarning","filename":"/home/airflow/.local/lib/python3.12/site-packages/requests/__init__.py","lineno":113,"logger":"py.warnings"}
+{"timestamp":"2026-03-17T22:45:54.923316Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 55. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-17T22:45:54.964377Z","level":"error","event":"2026-03-17 22:45:54,963 | INFO | scraper | Starting scraping process.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:54.964390Z","level":"info","event":"Starting scraping process.","logger":"scraper","filename":"scraper.py","lineno":79}
+{"timestamp":"2026-03-17T22:45:54.965330Z","level":"info","event":"Requesting page 1: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:45:54.965807Z","level":"error","event":"2026-03-17 22:45:54,964 | INFO | scraper | Requesting page 1: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:56.032621Z","level":"error","event":"2026-03-17 22:45:56,032 | INFO | scraper | Page 1 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:56.032554Z","level":"info","event":"Page 1 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:45:56.034798Z","level":"error","event":"2026-03-17 22:45:56,033 | INFO | scraper | Requesting page 2: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:56.034715Z","level":"info","event":"Requesting page 2: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:45:57.001430Z","level":"error","event":"2026-03-17 22:45:57,000 | INFO | scraper | Page 2 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:57.014274Z","level":"error","event":"2026-03-17 22:45:57,002 | INFO | scraper | Requesting page 3: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:57.001402Z","level":"info","event":"Page 2 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:45:57.004958Z","level":"info","event":"Requesting page 3: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:45:57.851252Z","level":"error","event":"2026-03-17 22:45:57,850 | INFO | scraper | Page 3 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:57.851120Z","level":"info","event":"Page 3 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:45:57.855537Z","level":"error","event":"2026-03-17 22:45:57,853 | INFO | scraper | Requesting page 4: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:57.855526Z","level":"info","event":"Requesting page 4: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:45:58.699914Z","level":"error","event":"2026-03-17 22:45:58,699 | INFO | scraper | Page 4 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:58.699834Z","level":"info","event":"Page 4 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:45:58.703109Z","level":"error","event":"2026-03-17 22:45:58,701 | INFO | scraper | Requesting page 5: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:58.703079Z","level":"info","event":"Requesting page 5: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:45:59.518407Z","level":"error","event":"2026-03-17 22:45:59,517 | INFO | scraper | Page 5 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:59.518287Z","level":"info","event":"Page 5 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:45:59.520339Z","level":"error","event":"2026-03-17 22:45:59,519 | INFO | scraper | Requesting page 6: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:45:59.520343Z","level":"info","event":"Requesting page 6: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:00.306145Z","level":"error","event":"2026-03-17 22:46:00,301 | INFO | scraper | Page 6 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:00.306132Z","level":"info","event":"Page 6 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:00.309908Z","level":"info","event":"Requesting page 7: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:00.314960Z","level":"error","event":"2026-03-17 22:46:00,307 | INFO | scraper | Requesting page 7: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:01.109376Z","level":"error","event":"2026-03-17 22:46:01,108 | INFO | scraper | Page 7 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:01.109375Z","level":"info","event":"Page 7 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:01.111363Z","level":"error","event":"2026-03-17 22:46:01,110 | INFO | scraper | Requesting page 8: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:01.111330Z","level":"info","event":"Requesting page 8: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:01.913482Z","level":"error","event":"2026-03-17 22:46:01,912 | INFO | scraper | Page 8 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:01.913417Z","level":"info","event":"Page 8 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:01.915655Z","level":"info","event":"Requesting page 9: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:01.916063Z","level":"error","event":"2026-03-17 22:46:01,914 | INFO | scraper | Requesting page 9: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:02.751093Z","level":"error","event":"2026-03-17 22:46:02,750 | INFO | scraper | Page 9 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:02.763797Z","level":"error","event":"2026-03-17 22:46:02,752 | INFO | scraper | Requesting page 10: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:02.750949Z","level":"info","event":"Page 9 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:02.753024Z","level":"info","event":"Requesting page 10: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:03.556516Z","level":"error","event":"2026-03-17 22:46:03,555 | INFO | scraper | Page 10 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:03.556421Z","level":"info","event":"Page 10 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:03.558622Z","level":"error","event":"2026-03-17 22:46:03,557 | INFO | scraper | Requesting page 11: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:03.558518Z","level":"info","event":"Requesting page 11: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:04.365653Z","level":"error","event":"2026-03-17 22:46:04,364 | INFO | scraper | Page 11 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:04.365501Z","level":"info","event":"Page 11 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:04.367378Z","level":"error","event":"2026-03-17 22:46:04,366 | INFO | scraper | Requesting page 12: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:04.367197Z","level":"info","event":"Requesting page 12: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:05.150054Z","level":"error","event":"2026-03-17 22:46:05,149 | INFO | scraper | Page 12 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:05.150035Z","level":"info","event":"Page 12 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:05.152242Z","level":"error","event":"2026-03-17 22:46:05,150 | INFO | scraper | Requesting page 13: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:05.152253Z","level":"info","event":"Requesting page 13: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:05.996719Z","level":"error","event":"2026-03-17 22:46:05,995 | INFO | scraper | Page 13 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:05.996639Z","level":"info","event":"Page 13 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:05.999538Z","level":"error","event":"2026-03-17 22:46:05,998 | INFO | scraper | Requesting page 14: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:05.999487Z","level":"info","event":"Requesting page 14: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:06.762302Z","level":"error","event":"2026-03-17 22:46:06,761 | INFO | scraper | Page 14 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:06.762246Z","level":"info","event":"Page 14 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:06.763961Z","level":"error","event":"2026-03-17 22:46:06,763 | INFO | scraper | Requesting page 15: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:06.763902Z","level":"info","event":"Requesting page 15: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:07.607237Z","level":"error","event":"2026-03-17 22:46:07,606 | INFO | scraper | Page 15 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:07.607087Z","level":"info","event":"Page 15 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:07.610333Z","level":"error","event":"2026-03-17 22:46:07,608 | INFO | scraper | Requesting page 16: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:07.610292Z","level":"info","event":"Requesting page 16: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:08.466054Z","level":"error","event":"2026-03-17 22:46:08,464 | INFO | scraper | Page 16 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:08.477330Z","level":"error","event":"2026-03-17 22:46:08,466 | INFO | scraper | Requesting page 17: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:08.465981Z","level":"info","event":"Page 16 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:08.468233Z","level":"info","event":"Requesting page 17: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:09.303206Z","level":"error","event":"2026-03-17 22:46:09,302 | INFO | scraper | Page 17 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:09.303126Z","level":"info","event":"Page 17 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:09.305413Z","level":"error","event":"2026-03-17 22:46:09,304 | INFO | scraper | Requesting page 18: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:09.305408Z","level":"info","event":"Requesting page 18: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:10.202565Z","level":"error","event":"2026-03-17 22:46:10,201 | INFO | scraper | Page 18 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:10.202620Z","level":"info","event":"Page 18 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:10.209320Z","level":"error","event":"2026-03-17 22:46:10,207 | INFO | scraper | Requesting page 19: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:10.209320Z","level":"info","event":"Requesting page 19: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:11.130110Z","level":"error","event":"2026-03-17 22:46:11,128 | INFO | scraper | Page 19 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:11.130031Z","level":"info","event":"Page 19 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:11.131890Z","level":"error","event":"2026-03-17 22:46:11,130 | INFO | scraper | Requesting page 20: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:11.131831Z","level":"info","event":"Requesting page 20: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:11.901059Z","level":"error","event":"2026-03-17 22:46:11,900 | INFO | scraper | Page 20 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:11.900961Z","level":"info","event":"Page 20 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:11.902636Z","level":"error","event":"2026-03-17 22:46:11,901 | INFO | scraper | Requesting page 21: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:11.902559Z","level":"info","event":"Requesting page 21: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:12.684184Z","level":"error","event":"2026-03-17 22:46:12,683 | INFO | scraper | Page 21 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:12.684109Z","level":"info","event":"Page 21 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:12.685888Z","level":"error","event":"2026-03-17 22:46:12,685 | INFO | scraper | Requesting page 22: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:12.685884Z","level":"info","event":"Requesting page 22: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:13.495381Z","level":"error","event":"2026-03-17 22:46:13,494 | INFO | scraper | Page 22 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:13.510269Z","level":"error","event":"2026-03-17 22:46:13,496 | INFO | scraper | Requesting page 23: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:13.495342Z","level":"info","event":"Page 22 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:13.497925Z","level":"info","event":"Requesting page 23: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:14.384574Z","level":"error","event":"2026-03-17 22:46:14,383 | INFO | scraper | Page 23 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:14.384467Z","level":"info","event":"Page 23 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:14.386591Z","level":"error","event":"2026-03-17 22:46:14,385 | INFO | scraper | Requesting page 24: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:14.386590Z","level":"info","event":"Requesting page 24: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:15.182458Z","level":"error","event":"2026-03-17 22:46:15,181 | INFO | scraper | Page 24 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:15.182294Z","level":"info","event":"Page 24 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:15.184032Z","level":"error","event":"2026-03-17 22:46:15,183 | INFO | scraper | Requesting page 25: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:15.183964Z","level":"info","event":"Requesting page 25: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:16.007501Z","level":"error","event":"2026-03-17 22:46:16,006 | INFO | scraper | Page 25 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:16.007379Z","level":"info","event":"Page 25 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:16.009874Z","level":"error","event":"2026-03-17 22:46:16,008 | INFO | scraper | Requesting page 26: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:16.009824Z","level":"info","event":"Requesting page 26: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:16.868677Z","level":"error","event":"2026-03-17 22:46:16,867 | INFO | scraper | Page 26 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:16.868676Z","level":"info","event":"Page 26 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:16.871327Z","level":"error","event":"2026-03-17 22:46:16,870 | INFO | scraper | Requesting page 27: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:16.871338Z","level":"info","event":"Requesting page 27: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:17.809589Z","level":"error","event":"2026-03-17 22:46:17,808 | INFO | scraper | Page 27 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:17.809568Z","level":"info","event":"Page 27 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:17.811867Z","level":"error","event":"2026-03-17 22:46:17,810 | INFO | scraper | Requesting page 28: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:17.811875Z","level":"info","event":"Requesting page 28: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:18.663101Z","level":"error","event":"2026-03-17 22:46:18,662 | INFO | scraper | Page 28 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:18.673856Z","level":"error","event":"2026-03-17 22:46:18,663 | INFO | scraper | Requesting page 29: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:18.663026Z","level":"info","event":"Page 28 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:18.664899Z","level":"info","event":"Requesting page 29: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:19.486671Z","level":"error","event":"2026-03-17 22:46:19,486 | INFO | scraper | Page 29 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:19.486614Z","level":"info","event":"Page 29 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:19.488453Z","level":"error","event":"2026-03-17 22:46:19,487 | INFO | scraper | Requesting page 30: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:19.488329Z","level":"info","event":"Requesting page 30: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:20.279732Z","level":"error","event":"2026-03-17 22:46:20,277 | INFO | scraper | Page 30 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:20.282353Z","level":"error","event":"2026-03-17 22:46:20,280 | INFO | scraper | Requesting page 31: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:20.279713Z","level":"info","event":"Page 30 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:20.282342Z","level":"info","event":"Requesting page 31: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:21.103300Z","level":"error","event":"2026-03-17 22:46:21,102 | INFO | scraper | Page 31 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:21.103221Z","level":"info","event":"Page 31 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:21.105444Z","level":"error","event":"2026-03-17 22:46:21,104 | INFO | scraper | Requesting page 32: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:21.105435Z","level":"info","event":"Requesting page 32: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:21.920235Z","level":"error","event":"2026-03-17 22:46:21,919 | INFO | scraper | Page 32 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:21.920213Z","level":"info","event":"Page 32 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:21.925354Z","level":"error","event":"2026-03-17 22:46:21,924 | INFO | scraper | Requesting page 33: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:21.925216Z","level":"info","event":"Requesting page 33: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:22.765694Z","level":"error","event":"2026-03-17 22:46:22,763 | INFO | scraper | Page 33 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:22.765617Z","level":"info","event":"Page 33 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:22.767303Z","level":"error","event":"2026-03-17 22:46:22,766 | INFO | scraper | Requesting page 34: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:22.767274Z","level":"info","event":"Requesting page 34: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:23.674111Z","level":"error","event":"2026-03-17 22:46:23,673 | INFO | scraper | Page 34 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:23.686280Z","level":"error","event":"2026-03-17 22:46:23,675 | INFO | scraper | Requesting page 35: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:23.674026Z","level":"info","event":"Page 34 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:23.676076Z","level":"info","event":"Requesting page 35: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:24.531639Z","level":"error","event":"2026-03-17 22:46:24,531 | INFO | scraper | Page 35 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:24.531599Z","level":"info","event":"Page 35 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:24.533879Z","level":"error","event":"2026-03-17 22:46:24,532 | INFO | scraper | Requesting page 36: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:24.533886Z","level":"info","event":"Requesting page 36: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:25.338536Z","level":"error","event":"2026-03-17 22:46:25,337 | INFO | scraper | Page 36 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:25.338542Z","level":"info","event":"Page 36 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:25.343092Z","level":"error","event":"2026-03-17 22:46:25,341 | INFO | scraper | Requesting page 37: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:25.342988Z","level":"info","event":"Requesting page 37: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:26.194317Z","level":"error","event":"2026-03-17 22:46:26,193 | INFO | scraper | Page 37 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:26.194287Z","level":"info","event":"Page 37 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:26.196928Z","level":"error","event":"2026-03-17 22:46:26,195 | INFO | scraper | Requesting page 38: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:26.196981Z","level":"info","event":"Requesting page 38: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:27.064667Z","level":"error","event":"2026-03-17 22:46:27,064 | INFO | scraper | Page 38 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:27.064633Z","level":"info","event":"Page 38 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:27.066619Z","level":"error","event":"2026-03-17 22:46:27,065 | INFO | scraper | Requesting page 39: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:27.066616Z","level":"info","event":"Requesting page 39: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:27.887754Z","level":"error","event":"2026-03-17 22:46:27,887 | INFO | scraper | Page 39 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:27.887687Z","level":"info","event":"Page 39 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:27.889189Z","level":"error","event":"2026-03-17 22:46:27,888 | INFO | scraper | Requesting page 40: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:27.889204Z","level":"info","event":"Requesting page 40: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:28.742574Z","level":"error","event":"2026-03-17 22:46:28,741 | INFO | scraper | Page 40 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:28.755156Z","level":"error","event":"2026-03-17 22:46:28,745 | INFO | scraper | Requesting page 41: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:28.742559Z","level":"info","event":"Page 40 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:28.746329Z","level":"info","event":"Requesting page 41: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:29.648315Z","level":"error","event":"2026-03-17 22:46:29,647 | INFO | scraper | Page 41 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:29.648233Z","level":"info","event":"Page 41 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:29.650727Z","level":"error","event":"2026-03-17 22:46:29,649 | INFO | scraper | Requesting page 42: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:29.650681Z","level":"info","event":"Requesting page 42: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:30.517231Z","level":"error","event":"2026-03-17 22:46:30,515 | INFO | scraper | Page 42 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:30.517218Z","level":"info","event":"Page 42 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:30.519324Z","level":"info","event":"Requesting page 43: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:30.520604Z","level":"error","event":"2026-03-17 22:46:30,518 | INFO | scraper | Requesting page 43: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:31.426172Z","level":"error","event":"2026-03-17 22:46:31,425 | INFO | scraper | Page 43 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:31.426111Z","level":"info","event":"Page 43 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:31.428336Z","level":"error","event":"2026-03-17 22:46:31,427 | INFO | scraper | Requesting page 44: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:31.428325Z","level":"info","event":"Requesting page 44: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:32.251929Z","level":"error","event":"2026-03-17 22:46:32,251 | INFO | scraper | Page 44 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:32.251921Z","level":"info","event":"Page 44 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:32.254433Z","level":"error","event":"2026-03-17 22:46:32,253 | INFO | scraper | Requesting page 45: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:32.254431Z","level":"info","event":"Requesting page 45: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:33.153753Z","level":"error","event":"2026-03-17 22:46:33,152 | INFO | scraper | Page 45 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:33.153709Z","level":"info","event":"Page 45 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:33.157622Z","level":"error","event":"2026-03-17 22:46:33,155 | INFO | scraper | Requesting page 46: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:33.157570Z","level":"info","event":"Requesting page 46: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:33.987563Z","level":"error","event":"2026-03-17 22:46:33,986 | INFO | scraper | Page 46 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:33.998932Z","level":"error","event":"2026-03-17 22:46:33,988 | INFO | scraper | Requesting page 47: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:33.987458Z","level":"info","event":"Page 46 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:33.989664Z","level":"info","event":"Requesting page 47: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:34.797507Z","level":"error","event":"2026-03-17 22:46:34,796 | INFO | scraper | Page 47 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:34.797468Z","level":"info","event":"Page 47 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:34.799218Z","level":"error","event":"2026-03-17 22:46:34,798 | INFO | scraper | Requesting page 48: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:34.799203Z","level":"info","event":"Requesting page 48: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:35.913066Z","level":"error","event":"2026-03-17 22:46:35,912 | INFO | scraper | Page 48 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:35.913037Z","level":"info","event":"Page 48 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:35.916176Z","level":"error","event":"2026-03-17 22:46:35,914 | INFO | scraper | Requesting page 49: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:35.916103Z","level":"info","event":"Requesting page 49: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:36.751070Z","level":"error","event":"2026-03-17 22:46:36,750 | INFO | scraper | Page 49 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:36.751019Z","level":"info","event":"Page 49 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:36.752983Z","level":"error","event":"2026-03-17 22:46:36,751 | INFO | scraper | Requesting page 50: attempt 1","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:36.752894Z","level":"info","event":"Requesting page 50: attempt 1","logger":"scraper","filename":"scraper.py","lineno":40}
+{"timestamp":"2026-03-17T22:46:37.572700Z","level":"error","event":"2026-03-17 22:46:37,571 | INFO | scraper | Page 50 scraped successfully with 20 books.","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:37.572646Z","level":"info","event":"Page 50 scraped successfully with 20 books.","logger":"scraper","filename":"scraper.py","lineno":67}
+{"timestamp":"2026-03-17T22:46:37.694980Z","level":"error","event":"2026-03-17 22:46:37,694 | INFO | scraper | Raw CSV data saved to data/raw/books_raw.csv","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:37.695736Z","level":"error","event":"2026-03-17 22:46:37,695 | INFO | scraper | Raw Parquet data saved to data/raw/books_raw.parquet","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:37.694913Z","level":"info","event":"Raw CSV data saved to data/raw/books_raw.csv","logger":"scraper","filename":"scraper.py","lineno":96}
+{"timestamp":"2026-03-17T22:46:37.695509Z","level":"info","event":"Raw Parquet data saved to data/raw/books_raw.parquet","logger":"scraper","filename":"scraper.py","lineno":97}
+{"timestamp":"2026-03-17T22:46:37.697087Z","level":"error","event":"2026-03-17 22:46:37,695 | INFO | scraper | Total records scraped: 1000","logger":"task.stderr"}
+{"timestamp":"2026-03-17T22:46:37.695897Z","level":"info","event":"Total records scraped: 1000","logger":"scraper","filename":"scraper.py","lineno":98}
+{"timestamp":"2026-03-17T22:46:37.696543Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}

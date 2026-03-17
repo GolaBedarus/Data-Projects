@@ -1,0 +1,222 @@
+2026-03-17 22:45:54,962 | INFO | scraper | Starting scraping process.
+2026-03-17 22:45:54,963 | INFO | scraper | Starting scraping process.
+2026-03-17 22:45:54,964 | INFO | scraper | Requesting page 1: attempt 1
+2026-03-17 22:45:54,964 | INFO | scraper | Requesting page 1: attempt 1
+2026-03-17 22:45:56,010 | INFO | scraper | Page 1 scraped successfully with 20 books.
+2026-03-17 22:45:56,015 | INFO | scraper | Requesting page 2: attempt 1
+2026-03-17 22:45:56,032 | INFO | scraper | Page 1 scraped successfully with 20 books.
+2026-03-17 22:45:56,033 | INFO | scraper | Requesting page 2: attempt 1
+2026-03-17 22:45:56,866 | INFO | scraper | Page 2 scraped successfully with 20 books.
+2026-03-17 22:45:56,868 | INFO | scraper | Requesting page 3: attempt 1
+2026-03-17 22:45:57,000 | INFO | scraper | Page 2 scraped successfully with 20 books.
+2026-03-17 22:45:57,002 | INFO | scraper | Requesting page 3: attempt 1
+2026-03-17 22:45:57,795 | INFO | scraper | Page 3 scraped successfully with 20 books.
+2026-03-17 22:45:57,797 | INFO | scraper | Requesting page 4: attempt 1
+2026-03-17 22:45:57,850 | INFO | scraper | Page 3 scraped successfully with 20 books.
+2026-03-17 22:45:57,853 | INFO | scraper | Requesting page 4: attempt 1
+2026-03-17 22:45:58,646 | INFO | scraper | Page 4 scraped successfully with 20 books.
+2026-03-17 22:45:58,648 | INFO | scraper | Requesting page 5: attempt 1
+2026-03-17 22:45:58,699 | INFO | scraper | Page 4 scraped successfully with 20 books.
+2026-03-17 22:45:58,701 | INFO | scraper | Requesting page 5: attempt 1
+2026-03-17 22:45:59,432 | INFO | scraper | Page 5 scraped successfully with 20 books.
+2026-03-17 22:45:59,434 | INFO | scraper | Requesting page 6: attempt 1
+2026-03-17 22:45:59,517 | INFO | scraper | Page 5 scraped successfully with 20 books.
+2026-03-17 22:45:59,519 | INFO | scraper | Requesting page 6: attempt 1
+2026-03-17 22:46:00,220 | INFO | scraper | Page 6 scraped successfully with 20 books.
+2026-03-17 22:46:00,224 | INFO | scraper | Requesting page 7: attempt 1
+2026-03-17 22:46:00,301 | INFO | scraper | Page 6 scraped successfully with 20 books.
+2026-03-17 22:46:00,307 | INFO | scraper | Requesting page 7: attempt 1
+2026-03-17 22:46:01,034 | INFO | scraper | Page 7 scraped successfully with 20 books.
+2026-03-17 22:46:01,036 | INFO | scraper | Requesting page 8: attempt 1
+2026-03-17 22:46:01,108 | INFO | scraper | Page 7 scraped successfully with 20 books.
+2026-03-17 22:46:01,110 | INFO | scraper | Requesting page 8: attempt 1
+2026-03-17 22:46:01,804 | INFO | scraper | Page 8 scraped successfully with 20 books.
+2026-03-17 22:46:01,807 | INFO | scraper | Requesting page 9: attempt 1
+2026-03-17 22:46:01,912 | INFO | scraper | Page 8 scraped successfully with 20 books.
+2026-03-17 22:46:01,914 | INFO | scraper | Requesting page 9: attempt 1
+2026-03-17 22:46:02,634 | INFO | scraper | Page 9 scraped successfully with 20 books.
+2026-03-17 22:46:02,635 | INFO | scraper | Requesting page 10: attempt 1
+2026-03-17 22:46:02,750 | INFO | scraper | Page 9 scraped successfully with 20 books.
+2026-03-17 22:46:02,752 | INFO | scraper | Requesting page 10: attempt 1
+2026-03-17 22:46:03,452 | INFO | scraper | Page 10 scraped successfully with 20 books.
+2026-03-17 22:46:03,454 | INFO | scraper | Requesting page 11: attempt 1
+2026-03-17 22:46:03,555 | INFO | scraper | Page 10 scraped successfully with 20 books.
+2026-03-17 22:46:03,557 | INFO | scraper | Requesting page 11: attempt 1
+2026-03-17 22:46:04,210 | INFO | scraper | Page 11 scraped successfully with 20 books.
+2026-03-17 22:46:04,212 | INFO | scraper | Requesting page 12: attempt 1
+2026-03-17 22:46:04,364 | INFO | scraper | Page 11 scraped successfully with 20 books.
+2026-03-17 22:46:04,366 | INFO | scraper | Requesting page 12: attempt 1
+2026-03-17 22:46:04,979 | INFO | scraper | Page 12 scraped successfully with 20 books.
+2026-03-17 22:46:04,980 | INFO | scraper | Requesting page 13: attempt 1
+2026-03-17 22:46:05,149 | INFO | scraper | Page 12 scraped successfully with 20 books.
+2026-03-17 22:46:05,150 | INFO | scraper | Requesting page 13: attempt 1
+2026-03-17 22:46:05,844 | INFO | scraper | Page 13 scraped successfully with 20 books.
+2026-03-17 22:46:05,846 | INFO | scraper | Requesting page 14: attempt 1
+2026-03-17 22:46:05,995 | INFO | scraper | Page 13 scraped successfully with 20 books.
+2026-03-17 22:46:05,998 | INFO | scraper | Requesting page 14: attempt 1
+2026-03-17 22:46:06,665 | INFO | scraper | Page 14 scraped successfully with 20 books.
+2026-03-17 22:46:06,666 | INFO | scraper | Requesting page 15: attempt 1
+2026-03-17 22:46:06,761 | INFO | scraper | Page 14 scraped successfully with 20 books.
+2026-03-17 22:46:06,763 | INFO | scraper | Requesting page 15: attempt 1
+2026-03-17 22:46:07,454 | INFO | scraper | Page 15 scraped successfully with 20 books.
+2026-03-17 22:46:07,456 | INFO | scraper | Requesting page 16: attempt 1
+2026-03-17 22:46:07,606 | INFO | scraper | Page 15 scraped successfully with 20 books.
+2026-03-17 22:46:07,608 | INFO | scraper | Requesting page 16: attempt 1
+2026-03-17 22:46:08,398 | INFO | scraper | Page 16 scraped successfully with 20 books.
+2026-03-17 22:46:08,400 | INFO | scraper | Requesting page 17: attempt 1
+2026-03-17 22:46:08,464 | INFO | scraper | Page 16 scraped successfully with 20 books.
+2026-03-17 22:46:08,466 | INFO | scraper | Requesting page 17: attempt 1
+2026-03-17 22:46:09,258 | INFO | scraper | Page 17 scraped successfully with 20 books.
+2026-03-17 22:46:09,261 | INFO | scraper | Requesting page 18: attempt 1
+2026-03-17 22:46:09,302 | INFO | scraper | Page 17 scraped successfully with 20 books.
+2026-03-17 22:46:09,304 | INFO | scraper | Requesting page 18: attempt 1
+2026-03-17 22:46:10,097 | INFO | scraper | Page 18 scraped successfully with 20 books.
+2026-03-17 22:46:10,103 | INFO | scraper | Requesting page 19: attempt 1
+2026-03-17 22:46:10,201 | INFO | scraper | Page 18 scraped successfully with 20 books.
+2026-03-17 22:46:10,207 | INFO | scraper | Requesting page 19: attempt 1
+2026-03-17 22:46:10,979 | INFO | scraper | Page 19 scraped successfully with 20 books.
+2026-03-17 22:46:10,981 | INFO | scraper | Requesting page 20: attempt 1
+2026-03-17 22:46:11,128 | INFO | scraper | Page 19 scraped successfully with 20 books.
+2026-03-17 22:46:11,130 | INFO | scraper | Requesting page 20: attempt 1
+2026-03-17 22:46:11,801 | INFO | scraper | Page 20 scraped successfully with 20 books.
+2026-03-17 22:46:11,803 | INFO | scraper | Requesting page 21: attempt 1
+2026-03-17 22:46:11,900 | INFO | scraper | Page 20 scraped successfully with 20 books.
+2026-03-17 22:46:11,901 | INFO | scraper | Requesting page 21: attempt 1
+2026-03-17 22:46:12,620 | INFO | scraper | Page 21 scraped successfully with 20 books.
+2026-03-17 22:46:12,621 | INFO | scraper | Requesting page 22: attempt 1
+2026-03-17 22:46:12,683 | INFO | scraper | Page 21 scraped successfully with 20 books.
+2026-03-17 22:46:12,685 | INFO | scraper | Requesting page 22: attempt 1
+2026-03-17 22:46:13,443 | INFO | scraper | Page 22 scraped successfully with 20 books.
+2026-03-17 22:46:13,445 | INFO | scraper | Requesting page 23: attempt 1
+2026-03-17 22:46:13,494 | INFO | scraper | Page 22 scraped successfully with 20 books.
+2026-03-17 22:46:13,496 | INFO | scraper | Requesting page 23: attempt 1
+2026-03-17 22:46:14,305 | INFO | scraper | Page 23 scraped successfully with 20 books.
+2026-03-17 22:46:14,307 | INFO | scraper | Requesting page 24: attempt 1
+2026-03-17 22:46:14,383 | INFO | scraper | Page 23 scraped successfully with 20 books.
+2026-03-17 22:46:14,385 | INFO | scraper | Requesting page 24: attempt 1
+2026-03-17 22:46:15,138 | INFO | scraper | Page 24 scraped successfully with 20 books.
+2026-03-17 22:46:15,140 | INFO | scraper | Requesting page 25: attempt 1
+2026-03-17 22:46:15,181 | INFO | scraper | Page 24 scraped successfully with 20 books.
+2026-03-17 22:46:15,183 | INFO | scraper | Requesting page 25: attempt 1
+2026-03-17 22:46:16,006 | INFO | scraper | Page 25 scraped successfully with 20 books.
+2026-03-17 22:46:16,008 | INFO | scraper | Requesting page 26: attempt 1
+2026-03-17 22:46:16,014 | INFO | scraper | Page 25 scraped successfully with 20 books.
+2026-03-17 22:46:16,016 | INFO | scraper | Requesting page 26: attempt 1
+2026-03-17 22:46:16,857 | INFO | scraper | Page 26 scraped successfully with 20 books.
+2026-03-17 22:46:16,862 | INFO | scraper | Requesting page 27: attempt 1
+2026-03-17 22:46:16,867 | INFO | scraper | Page 26 scraped successfully with 20 books.
+2026-03-17 22:46:16,870 | INFO | scraper | Requesting page 27: attempt 1
+2026-03-17 22:46:17,808 | INFO | scraper | Page 27 scraped successfully with 20 books.
+2026-03-17 22:46:17,810 | INFO | scraper | Requesting page 28: attempt 1
+2026-03-17 22:46:17,818 | INFO | scraper | Page 27 scraped successfully with 20 books.
+2026-03-17 22:46:17,822 | INFO | scraper | Requesting page 28: attempt 1
+2026-03-17 22:46:18,662 | INFO | scraper | Page 28 scraped successfully with 20 books.
+2026-03-17 22:46:18,663 | INFO | scraper | Requesting page 29: attempt 1
+2026-03-17 22:46:18,684 | INFO | scraper | Page 28 scraped successfully with 20 books.
+2026-03-17 22:46:18,686 | INFO | scraper | Requesting page 29: attempt 1
+2026-03-17 22:46:19,486 | INFO | scraper | Page 29 scraped successfully with 20 books.
+2026-03-17 22:46:19,487 | INFO | scraper | Requesting page 30: attempt 1
+2026-03-17 22:46:19,536 | INFO | scraper | Page 29 scraped successfully with 20 books.
+2026-03-17 22:46:19,537 | INFO | scraper | Requesting page 30: attempt 1
+2026-03-17 22:46:20,277 | INFO | scraper | Page 30 scraped successfully with 20 books.
+2026-03-17 22:46:20,280 | INFO | scraper | Requesting page 31: attempt 1
+2026-03-17 22:46:20,341 | INFO | scraper | Page 30 scraped successfully with 20 books.
+2026-03-17 22:46:20,344 | INFO | scraper | Requesting page 31: attempt 1
+2026-03-17 22:46:21,102 | INFO | scraper | Page 31 scraped successfully with 20 books.
+2026-03-17 22:46:21,104 | INFO | scraper | Requesting page 32: attempt 1
+2026-03-17 22:46:21,147 | INFO | scraper | Page 31 scraped successfully with 20 books.
+2026-03-17 22:46:21,149 | INFO | scraper | Requesting page 32: attempt 1
+2026-03-17 22:46:21,919 | INFO | scraper | Page 32 scraped successfully with 20 books.
+2026-03-17 22:46:21,924 | INFO | scraper | Requesting page 33: attempt 1
+2026-03-17 22:46:21,947 | INFO | scraper | Page 32 scraped successfully with 20 books.
+2026-03-17 22:46:21,949 | INFO | scraper | Requesting page 33: attempt 1
+2026-03-17 22:46:22,763 | INFO | scraper | Page 33 scraped successfully with 20 books.
+2026-03-17 22:46:22,766 | INFO | scraper | Page 33 scraped successfully with 20 books.
+2026-03-17 22:46:22,766 | INFO | scraper | Requesting page 34: attempt 1
+2026-03-17 22:46:22,767 | INFO | scraper | Requesting page 34: attempt 1
+2026-03-17 22:46:23,666 | INFO | scraper | Page 34 scraped successfully with 20 books.
+2026-03-17 22:46:23,669 | INFO | scraper | Requesting page 35: attempt 1
+2026-03-17 22:46:23,673 | INFO | scraper | Page 34 scraped successfully with 20 books.
+2026-03-17 22:46:23,675 | INFO | scraper | Requesting page 35: attempt 1
+2026-03-17 22:46:24,504 | INFO | scraper | Page 35 scraped successfully with 20 books.
+2026-03-17 22:46:24,506 | INFO | scraper | Requesting page 36: attempt 1
+2026-03-17 22:46:24,531 | INFO | scraper | Page 35 scraped successfully with 20 books.
+2026-03-17 22:46:24,532 | INFO | scraper | Requesting page 36: attempt 1
+2026-03-17 22:46:25,299 | INFO | scraper | Page 36 scraped successfully with 20 books.
+2026-03-17 22:46:25,301 | INFO | scraper | Requesting page 37: attempt 1
+2026-03-17 22:46:25,337 | INFO | scraper | Page 36 scraped successfully with 20 books.
+2026-03-17 22:46:25,341 | INFO | scraper | Requesting page 37: attempt 1
+2026-03-17 22:46:26,193 | INFO | scraper | Page 37 scraped successfully with 20 books.
+2026-03-17 22:46:26,195 | INFO | scraper | Page 37 scraped successfully with 20 books.
+2026-03-17 22:46:26,195 | INFO | scraper | Requesting page 38: attempt 1
+2026-03-17 22:46:26,197 | INFO | scraper | Requesting page 38: attempt 1
+2026-03-17 22:46:27,003 | INFO | scraper | Page 38 scraped successfully with 20 books.
+2026-03-17 22:46:27,005 | INFO | scraper | Requesting page 39: attempt 1
+2026-03-17 22:46:27,064 | INFO | scraper | Page 38 scraped successfully with 20 books.
+2026-03-17 22:46:27,065 | INFO | scraper | Requesting page 39: attempt 1
+2026-03-17 22:46:27,885 | INFO | scraper | Page 39 scraped successfully with 20 books.
+2026-03-17 22:46:27,887 | INFO | scraper | Page 39 scraped successfully with 20 books.
+2026-03-17 22:46:27,887 | INFO | scraper | Requesting page 40: attempt 1
+2026-03-17 22:46:27,888 | INFO | scraper | Requesting page 40: attempt 1
+2026-03-17 22:46:28,741 | INFO | scraper | Page 40 scraped successfully with 20 books.
+2026-03-17 22:46:28,741 | INFO | scraper | Page 40 scraped successfully with 20 books.
+2026-03-17 22:46:28,743 | INFO | scraper | Requesting page 41: attempt 1
+2026-03-17 22:46:28,745 | INFO | scraper | Requesting page 41: attempt 1
+2026-03-17 22:46:29,647 | INFO | scraper | Page 41 scraped successfully with 20 books.
+2026-03-17 22:46:29,649 | INFO | scraper | Requesting page 42: attempt 1
+2026-03-17 22:46:29,662 | INFO | scraper | Page 41 scraped successfully with 20 books.
+2026-03-17 22:46:29,663 | INFO | scraper | Requesting page 42: attempt 1
+2026-03-17 22:46:30,515 | INFO | scraper | Page 42 scraped successfully with 20 books.
+2026-03-17 22:46:30,515 | INFO | scraper | Page 42 scraped successfully with 20 books.
+2026-03-17 22:46:30,517 | INFO | scraper | Requesting page 43: attempt 1
+2026-03-17 22:46:30,518 | INFO | scraper | Requesting page 43: attempt 1
+2026-03-17 22:46:31,425 | INFO | scraper | Page 43 scraped successfully with 20 books.
+2026-03-17 22:46:31,427 | INFO | scraper | Page 43 scraped successfully with 20 books.
+2026-03-17 22:46:31,427 | INFO | scraper | Requesting page 44: attempt 1
+2026-03-17 22:46:31,428 | INFO | scraper | Requesting page 44: attempt 1
+2026-03-17 22:46:32,251 | INFO | scraper | Page 44 scraped successfully with 20 books.
+2026-03-17 22:46:32,252 | INFO | scraper | Page 44 scraped successfully with 20 books.
+2026-03-17 22:46:32,253 | INFO | scraper | Requesting page 45: attempt 1
+2026-03-17 22:46:32,254 | INFO | scraper | Requesting page 45: attempt 1
+2026-03-17 22:46:33,142 | INFO | scraper | Page 45 scraped successfully with 20 books.
+2026-03-17 22:46:33,145 | INFO | scraper | Requesting page 46: attempt 1
+2026-03-17 22:46:33,152 | INFO | scraper | Page 45 scraped successfully with 20 books.
+2026-03-17 22:46:33,155 | INFO | scraper | Requesting page 46: attempt 1
+2026-03-17 22:46:33,923 | INFO | scraper | Page 46 scraped successfully with 20 books.
+2026-03-17 22:46:33,925 | INFO | scraper | Requesting page 47: attempt 1
+2026-03-17 22:46:33,986 | INFO | scraper | Page 46 scraped successfully with 20 books.
+2026-03-17 22:46:33,988 | INFO | scraper | Requesting page 47: attempt 1
+2026-03-17 22:46:34,770 | INFO | scraper | Page 47 scraped successfully with 20 books.
+2026-03-17 22:46:34,773 | INFO | scraper | Requesting page 48: attempt 1
+2026-03-17 22:46:34,796 | INFO | scraper | Page 47 scraped successfully with 20 books.
+2026-03-17 22:46:34,798 | INFO | scraper | Requesting page 48: attempt 1
+2026-03-17 22:46:35,912 | INFO | scraper | Page 48 scraped successfully with 20 books.
+2026-03-17 22:46:35,913 | INFO | scraper | Page 48 scraped successfully with 20 books.
+2026-03-17 22:46:35,914 | INFO | scraper | Requesting page 49: attempt 1
+2026-03-17 22:46:35,915 | INFO | scraper | Requesting page 49: attempt 1
+2026-03-17 22:46:36,750 | INFO | scraper | Page 49 scraped successfully with 20 books.
+2026-03-17 22:46:36,751 | INFO | scraper | Requesting page 50: attempt 1
+2026-03-17 22:46:36,752 | INFO | scraper | Page 49 scraped successfully with 20 books.
+2026-03-17 22:46:36,754 | INFO | scraper | Requesting page 50: attempt 1
+2026-03-17 22:46:37,567 | INFO | scraper | Page 50 scraped successfully with 20 books.
+2026-03-17 22:46:37,571 | INFO | scraper | Page 50 scraped successfully with 20 books.
+2026-03-17 22:46:37,694 | INFO | scraper | Raw CSV data saved to data/raw/books_raw.csv
+2026-03-17 22:46:37,694 | INFO | scraper | Raw CSV data saved to data/raw/books_raw.csv
+2026-03-17 22:46:37,695 | INFO | scraper | Raw Parquet data saved to data/raw/books_raw.parquet
+2026-03-17 22:46:37,695 | INFO | scraper | Raw Parquet data saved to data/raw/books_raw.parquet
+2026-03-17 22:46:37,695 | INFO | scraper | Total records scraped: 1000
+2026-03-17 22:46:37,695 | INFO | scraper | Total records scraped: 1000
+2026-03-17 22:46:39,666 | INFO | transform | Reading raw data from data/raw/books_raw.csv
+2026-03-17 22:46:39,671 | INFO | transform | Reading raw data from data/raw/books_raw.csv
+2026-03-17 22:46:39,766 | INFO | transform | Processed CSV data saved to data/processed/books_clean.csv
+2026-03-17 22:46:39,768 | INFO | transform | Processed Parquet data saved to data/processed/books_clean.parquet
+2026-03-17 22:46:39,768 | INFO | transform | Total records transformed: 1000
+2026-03-17 22:46:39,776 | INFO | transform | Processed CSV data saved to data/processed/books_clean.csv
+2026-03-17 22:46:39,777 | INFO | transform | Processed Parquet data saved to data/processed/books_clean.parquet
+2026-03-17 22:46:39,778 | INFO | transform | Total records transformed: 1000
+2026-03-17 22:46:42,201 | INFO | load | Reading processed data from data/processed/books_clean.csv
+2026-03-17 22:46:42,213 | INFO | load | Reading processed data from data/processed/books_clean.csv
+2026-03-17 22:46:42,239 | INFO | load | Database connection successful.
+2026-03-17 22:46:42,252 | INFO | load | Database connection successful.
+2026-03-17 22:46:42,371 | INFO | load | Loaded 1000 records into PostgreSQL.
+2026-03-17 22:46:42,374 | INFO | load | Loaded 1000 records into PostgreSQL.
